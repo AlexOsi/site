@@ -1,0 +1,568 @@
+# TweakMB tweak export
+# Created with TweakMB version 5.09
+
+# STANDARD TWEAK VALUES (do not remove this line)
+AIPartySize_BasePartySize = 50
+AIPartySize_BonusSizeForEachCastle = 20
+AIPartySize_BonusSizeForLeader = 100
+AIPartySize_BonusSizeForMarshall = 50
+AIPartySize_Divider = 80
+AIPartySize_LevelModifier = 0
+AIPartySize_RenownPerTroop = 10
+AIPartySize_SizePerLeadership = 30
+Arena_Round1Reward = 5
+Arena_Round1ToDefeat = 3
+Arena_Round2Reward = 10
+Arena_Round2ToDefeat = 6
+Arena_Round3Reward = 25
+Arena_Round3ToDefeat = 10
+Arena_Round4Reward = 60
+Arena_Round4ToDefeat = 20
+Arena_Round5Reward = 250
+AssigningFiefs_MaxChange = 2
+AssigningFiefs_MinChange = -5
+AssigningFiefs_RelationGained = 10
+AwardingFiefs_NotAwardedCompensationFemale = 900
+AwardingFiefs_NotAwardedCompensationMale = 900
+BanditInfest_BanditsDivider = 1,2
+BanditInfest_BanditsMultiplier = 1,2
+BanditInfest_ChanceForInfestation = 3
+BanditInfest_FarmersMax = 29
+BanditInfest_FarmersMin = 25
+BanditParties_DesertBanditsMaxParties = 16
+BanditParties_ForestBanditsMaxParties = 16
+BanditParties_LootersMaxParties = 42
+BanditParties_MountainBanditsMaxParties = 16
+BanditParties_SeaRaidersPartiesMaxParties = 16
+BanditParties_SteppeBanditsMaxParties = 16
+BanditParties_TundraBanditsMaxParties = 16
+BattleMapSize_Desert = 430500
+BattleMapSize_DesertForest = 256250
+BattleMapSize_Plain = 430500
+BattleMapSize_PlainForest = 256250
+BattleMapSize_Snow = 430500
+BattleMapSize_SnowForest = 256250
+BattleMapSize_Steppe = 430500
+BattleMapSize_SteppeForest = 256250
+BattleMisc_ExpDivider = 75
+BattleMisc_GoldDivider = 100
+BattleMisc_MaxPossibleRenown = 100
+BattleMisc_RenownDivider = 25
+Cattle_MoveType = Checked
+Color_PlayerKingdom_Conversation = 16711680
+Companions_DisableCompanionInteraction = Unchecked
+Companions_DisableMoralityComplaints = Checked
+Companions_DisablePersonalityComplaints = Checked
+Companions_DisablePostBattleComplaints = Checked
+Companions_PreventCompanionsFromLeaving = Checked
+Companions_WeHangDesertersDialog = Checked
+Enterprise_BakeryInitialCost = 1500
+Enterprise_BakeryInput = 6
+Enterprise_BakeryOutput = 8
+Enterprise_BakeryOverhead = 30
+Enterprise_BreweryInitialCost = 2500
+Enterprise_BreweryInput = 1
+Enterprise_BreweryOutput = 3
+Enterprise_BreweryOverhead = 50
+Enterprise_Input = 1000
+Enterprise_Input2 = 1000
+Enterprise_IronworksInitialCost = 3500
+Enterprise_IronworksInput = 2
+Enterprise_IronworksOutput = 3
+Enterprise_IronworksOverhead = 60
+Enterprise_MinimumFactionRelation = -100
+Enterprise_MinimumLordRelation = -10
+Enterprise_MinimumTownRelation = -5
+Enterprise_OilPressInitialCost = 4500
+Enterprise_OilPressInput = 6
+Enterprise_OilPressOutput = 3
+Enterprise_OilPressOverhead = 80
+Enterprise_Output = 1000
+Enterprise_TanneryInitialCost = 8000
+Enterprise_TanneryInput = 3
+Enterprise_TanneryOutput = 4
+Enterprise_TanneryOverhead = 50
+Enterprise_TimeToStart = 7
+Enterprise_WeaveryLinenInitialCost = 6000
+Enterprise_WeaveryLinenInput = 2
+Enterprise_WeaveryLinenOutput = 3
+Enterprise_WeaveryLinenOverhead = 120
+Enterprise_WeaveryVelvetInitialCost = 10000
+Enterprise_WeaveryVelvetInput = 2
+Enterprise_WeaveryVelvetOutput = 3
+Enterprise_WeaveryVelvetOverhead = 160
+Enterprise_WeaveryWoolInitialCost = 6000
+Enterprise_WeaveryWoolInput = 2
+Enterprise_WeaveryWoolOutput = 3
+Enterprise_WeaveryWoolOverhead = 120
+Enterprise_WinePressInitialCost = 5000
+Enterprise_WinePressInput = 4
+Enterprise_WinePressOutput = 3
+Enterprise_WinePressOverhead = 60
+EscapeRates_EscapeChanceInParty = 50
+EscapeRates_EscapeChanceInTownNoTower = 30
+EscapeRates_EscapeChanceInTownWithTower = 5
+FiefIncome_BaseIncomeCastle = 1200
+FiefIncome_BaseIncomeTown = 2400
+FiefIncome_BaseIncomeVillage = 1200
+FiefIncome_Divider = 40
+Food_TroopsFed = 3
+Honor_AbandonCauseOfPretender = -10
+Honor_AllowEnemyLordGoFree = 3
+Honor_AllowFreedLordGoFree = 2
+Honor_AttackNoProvocation = -1
+Honor_BreakTruce = -5
+Honor_CauseProvocationStartWarSuccess = -5
+Honor_ConfirmRansomDemand = -2
+Honor_DeclareWar = 0
+Honor_DefeatVillageBanditsAfterTrainPeasants = 1
+Honor_DefeatVillageBanditsDuringInfestation = 1
+Honor_DuelFailed = -5
+Honor_DuelSuccessAcceptReward = 1
+Honor_DuelSuccessDeclineReward = 2
+Honor_IgnoreProvocation = 0
+Honor_IncriminateCommanderFailed = 3
+Honor_IncriminateCommanderReject = 2
+Honor_IncriminateCommanderSuccess = -10
+Honor_IncriminateRefuseSacrifice = 3
+Honor_IntrigueAcceptBlame = 1
+Honor_IntrigueDeflectBlame = -2
+Honor_JoinFaction = 0
+Honor_KillFugitiveSuccessDeclineReward = 3
+Honor_MakePeace = 0
+Honor_PersuadeLordsMakePeaceAcceptDeclineMoney = 3
+Honor_RejectRandomPrisonerLord = -1
+Honor_SelectNobleBackground = 3
+Improvements_BuildSpeed = 100
+Improvements_DaysAdded = 3
+Improvements_EngiNumDivider = 10
+Improvements_EngiNumToSubtractFrom = 50
+Improvements_MillInitialProsperityIncrease = 5
+Improvements_MillPermanentProsperityIncrease = 5
+Improvements_SchoolRelationGained = 1
+Improvements_WatchTowerAdditionalLootingTimeDivider = 150
+Improvements_WatchTowerAdditionalLootingTimeMultiplier = 150
+Improvements_WatchTowerSpottingDistance = 2
+Merchants_ArmorMax = 500
+Merchants_ArmorMin = 250
+Merchants_ArmorThreshold = 1000
+Merchants_GoodsMax = 1000
+Merchants_GoodsMin = 500
+Merchants_GoodsThreshold = 1500
+Merchants_HorseMax = 500
+Merchants_HorseMin = 250
+Merchants_HorseThreshold = 600
+Merchants_WeaponsMax = 500
+Merchants_WeaponsMin = 250
+Merchants_WeaponsThreshold = 1000
+Misc_DisableStatLoss = Checked
+Misc_HoursToReadBookProgressPerHour = 143
+Misc_HoursToReadBookTotalProgressRequired = 143
+Misc_MercenariesAvailableMax = 50
+Misc_MercenariesAvailableMin = 15
+Misc_MercenaryContractLengthInitial = 15
+Misc_MercenaryContractLengthRenewed = 15
+Misc_RouteTimer = 45
+Morale_LossPerHero = 1
+Morale_PointsPerLeadershipKing = 15
+Morale_PointsPerLeadershipNotKing = 12
+PartySize_BaseSize = 30
+PartySize_LeadershipBonus = 15
+PartySize_RenownForMoreTroops = 25
+Prisoners_LordEscapeChanceAfterBattle = 70
+Prisoners_MoraleLossFromRecruiting = 0
+Prisoners_PrisonerLordRansomChance = 5
+Prisoners_PrisonersPerLeadership = 15
+Prisoners_RecruitInterval = -1
+Prisoners_RecruitModifier = 80
+Prisoners_TavernKeepersBuyEndRange = Checked
+Propserity_GoldPerIncrease = 3000
+Propserity_GoldPerIncreaseRemoved = 3000
+Prosperity_CaravanCheck1 = 1
+Prosperity_DeliverCattleSuccess = 4
+Prosperity_DeliverGrainSuccess = 4
+Prosperity_FarmerGain = 1
+Prosperity_FarmerGainChance = 5
+Prosperity_InfestedWithBandits = -1
+Prosperity_LossUnderSiegeChance = 33
+Prosperity_MinimumGold = 3500
+Prosperity_VillageLooted = -60
+QuestsGuildMaster_DealWithLooters = 30
+QuestsGuildMaster_DealWithNightBandits = 15
+QuestsGuildMaster_DeliverWine = 20
+QuestsGuildMaster_KidnappedGirl = 30
+QuestsGuildMaster_MoveCattle = 20
+QuestsGuildMaster_PersuadePeace = 100
+QuestsGuildMaster_TroublesomeBandits = 30
+QuestsLady_DeliverMessageToPrisonerLord = 30
+QuestsLady_DuelForLady = 50
+QuestsLady_RescueLord = 73
+QuestsLord_BringBackSerfs = 20
+QuestsLord_CaptureEnemyLord = 30
+QuestsLord_CapturePrisoners = 20
+QuestsLord_CollectDebt = 20
+QuestsLord_CollectTaxes = 20
+QuestsLord_DeliverMessage = 10
+QuestsLord_EscortLady = 30
+QuestsLord_FollowSpy = 50
+QuestsLord_HuntDownFugitive = 30
+QuestsLord_IncriminateCommander = 180
+QuestsLord_KillMerchant = 30
+QuestsLord_LendCompanion = 30
+QuestsLord_LendSurgeon = 50
+QuestsLord_MeetSpy = 50
+QuestsLord_RaidCaravan = 100
+QuestsLord_TrainTroops = 15
+QuestsVillage_DeliverCattle = 15
+QuestsVillage_DeliverGrain = 15
+QuestsVillage_ElderOffersAnotherQuestAfterDecline = Unchecked
+QuestsVillage_TrainPeasants = 35
+Reinforcements_SiegeBelfryThresholdAttackers = 6
+Reinforcements_SiegeBelfryThresholdDefenders = 8
+Reinforcements_SiegeBelfryWavesAttackers = 5
+Reinforcements_SiegeBelfryWavesDefenders = 7
+Reinforcements_SiegeLadderThresholdAttackers = 6
+Reinforcements_SiegeLadderThresholdDefenders = 8
+Reinforcements_SiegeLadderWavesAttackers = 5
+Reinforcements_SiegeLadderWavesDefenders = 7
+Reinforcements_StandardBattleThresholdAttackers = 6
+Reinforcements_StandardBattleThresholdDefenders = 6
+Reinforcements_StandardBattleWavesAttackers = 2
+Reinforcements_StandardBattleWavesDefenders = 2
+Reinforcements_VillageRaidThresholdAttackers = 6
+Reinforcements_VillageRaidThresholdDefenders = 6
+Reinforcements_VillageRaidWavesAttackers = 2
+Reinforcements_VillageRaidWavesDefenders = 2
+RelationLady_DuelAccept = 3
+RelationLady_DuelFailure = 6
+RelationLady_DuelReject = -1
+RelationLady_DuelSuccess = 10
+RelationLady_EscortLadySuccess = 2
+RelationLady_RescueLordSuccess = 8
+RelationLord_AllowEnemyLordGoFree = 5
+RelationLord_AllowFreedLordGoFree = 7
+RelationLord_AskForPardonAccept = 3
+RelationLord_AskForPardonReject = -5
+RelationLord_BattleAttackFriend = -30
+RelationLord_BattleAvoid = -7
+RelationLord_BattleCallOffAttack = -1
+RelationLord_BattleSurrenderOrDie = -1
+RelationLord_BringCattleAccept = 1
+RelationLord_BringCattleSuccess = 2
+RelationLord_BrinkBackRunawaySerfsFailure = -1
+RelationLord_BrinkBackRunawaySerfsLetGo = -10
+RelationLord_BrinkBackRunawaySerfsSuccess = 2
+RelationLord_CaptureLordAccept = 1
+RelationLord_CaptureLordSuccess = 4
+RelationLord_CollectDebtAccept = 1
+RelationLord_CollectDebtSuccess = 2
+RelationLord_CollectTaxesAccept = 1
+RelationLord_CollectTaxesFailure = -1
+RelationLord_CollectTaxesSuccess = 2
+RelationLord_DealWithBanditsAccept = 1
+RelationLord_DealWithBanditsFailure = -5
+RelationLord_DealWithBanditsSuccess = 3
+RelationLord_DeliverMessageEnemySuccess = 1
+RelationLord_DeliverMessageReject = -4
+RelationLord_DeliverMessageSuccess = 1
+RelationLord_FollowSpyAccept = 1
+RelationLord_FollowSpyCaptureBoth = 4
+RelationLord_FollowSpyCaptureFacilitator = 1
+RelationLord_FollowSpyCaptureSpy = -1
+RelationLord_FollowSpyFailure = -2
+RelationLord_IncriminateCommanderAccept = 2
+RelationLord_IncriminateCommanderFailure = -5
+RelationLord_IncriminateCommanderReject = -5
+RelationLord_IncriminateCommanderSuccess = 5
+RelationLord_JoinClaimant = 50
+RelationLord_KillFugitiveAccept = 1
+RelationLord_KillFugitiveFailure = -1
+RelationLord_KillFugitiveSuccessAcceptReward = 1
+RelationLord_KillFugitiveSuccessDeclineReward = 1
+RelationLord_KillMerchantLetGo = 2
+RelationLord_KillMerchantSuccess = 4
+RelationLord_LendCompanion = 3
+RelationLord_MeetSpyAccept = 1
+RelationLord_MeetSpySuccess = 3
+RelationLord_ReportForCampaign = 1
+RelationLord_ScoutAccept = 1
+RelationLord_ScoutSuccess = 1
+RelationLord_TakeEnemyLordPrisoner = -3
+RelationLord_TakeFreedLordPrisoner = -30
+RelationLord_TrainTroopsAccept = 1
+RelationLord_TrainTroopsSuccess = 3
+RelationTown_BuyDrinks = 1
+RelationTown_DealWithLootersSuccess = 5
+RelationTown_DealWithNightBanditsSuccess = 1
+RelationTown_DeliverWineSuccess = 1
+RelationTown_EscortCaravanSuccess = 1
+RelationTown_MoveCattleSuccess = 3
+RelationTown_PersuadeLordsMakePeaceAcceptDeclineMoney = 8
+RelationTown_PersuadeLordsMakePeaceAcceptTakeMoney = 5
+RelationTown_RescueKidnappedGirlSuccess = 2
+RelationTown_TroublesomeBanditsSuccess = 2
+RelationVillage_DeliverCattleAccept = 3
+RelationVillage_DeliverCattleSuccess = 5
+RelationVillage_DeliverGrainAccept = 5
+RelationVillage_DeliverGrainSuccess = 5
+RelationVillage_TrainPeasantsAccept = 3
+Resting_InfiniteCampMaxHours = 87600
+Resting_InfiniteCampSpeed = 20
+Resting_StandardCampAttackable = 1
+Resting_StandardCampMaxHours = 8760
+Resting_StandardCampSpeed = 5
+Resting_TownAttackable = 0
+Resting_TownMaxHours = 168
+Resting_TownSpeed = 5
+Resting_TroopsPerGold = 4
+Resting_VillageAttackable = 1
+Resting_VillageMaxHours = 168
+Resting_VillageSpeed = 5
+RTR_CompanionReturnsSpreadWord = 3
+RTR_CompanionReturnsWithLetter = 10
+RTR_GetMarried = 15
+RTR_MakePeace = 3
+RTR_RecruitLord = 5
+RTR_ResolveDisputeAborted = -2
+Sieges_LadderDivider = 3
+Sieges_SiegeTowerSpeedMultiplier = 3
+Sieges_TowerMultiplier = 4
+TaxInefficiency_CentersRequiredAverage = 4
+TaxInefficiency_CentersRequiredGood = 2
+TaxInefficiency_CentersRequiredPoor = 6
+TaxInefficiency_MaxInefficiency = 20
+TaxInefficiency_PercentInefficiencyAverage = 4
+TaxInefficiency_PercentInefficiencyGood = 5
+TaxInefficiency_PercentInefficiencyPoor = 3
+Tournament_Bet1Amount = 100
+Tournament_Bet2Amount = 50
+Tournament_Bet3Amount = 20
+Tournament_Bet4Amount = 10
+Tournament_Bet5Amount = 5
+Tournament_RelationGainedWithTown = 1
+Tournament_Renown = 20
+Tournament_XPGained = 250
+TournamentFrequency_ChanceOfGettingTournament = 30
+TournamentFrequency_MaxDays = 14
+TournamentFrequency_MinDays = 12
+TournamentFrequency_ThresholdForAddingTournament = 3
+TroopRecruitment_ChanceOfGettingHigherTier = 10
+TroopRecruitment_LargeRecruitmentAdd = 6
+TroopRecruitment_LargeRecruitmentDivider = 2
+TroopRecruitment_LargeRecruitmentMinRelation = 4
+TroopRecruitment_MinTroops = 0
+TroopRecruitment_RelationPerTier = 10
+TroopRecruitment_SmallRecruitmentMaxTroops = 8
+TroopWages_BaseWageDivider = 25
+TroopWages_CompanionMultiplier = 3
+TroopWages_GarrisonDivider = 3
+TroopWages_MercenaryDivider = 150
+TroopWages_MercenaryMultiplier = 150
+TroopWages_MountedDivider = 166
+TroopWages_MountedMuliplier = 166
+TroopWages_ReductionPerLeadership = 6
+
+# AMMO VALUES (do not remove this line)
+itm_turret_hat_green = Barbette = Max ammo = 0
+itm_black_hood = Black_Hood = Max ammo = 0
+itm_raw_date_fruit = Date_Fruit = Max ammo = 10
+itm_raw_grapes = Grapes = Max ammo = 10
+itm_common_hood = Hood = Max ammo = 0
+itm_hood_b = Hood = Max ammo = 0
+itm_hood_c = Hood = Max ammo = 0
+itm_hood_d = Hood = Max ammo = 0
+itm_female_hood = Lady's_Hood = Max ammo = 0
+itm_leather_cap = Leather_Cap = Max ammo = 0
+itm_leather_warrior_cap = Leather_Warrior_Cap = Max ammo = 0
+itm_nomad_cap = Nomad_Cap = Max ammo = 0
+itm_raw_olives = Olives = Max ammo = 10
+itm_sarranid_felt_hat = Sarranid_Felt_Hat = Max ammo = 0
+itm_woolen_cap = Woolen_Cap = Max ammo = 0
+
+# RELOAD VALUES (do not remove this line)
+itm_blue_tourney_helmet = Blue_Tourney_Helmet = Shots/load = 0
+itm_felt_steppe_cap = Felt_Steppe_Cap = Shots/load = 0
+itm_gold_tourney_helmet = Gold_Tourney_Helmet = Shots/load = 0
+itm_green_tourney_helmet = Green_Tourney_Helmet = Shots/load = 0
+itm_red_tourney_helmet = Red_Tourney_Helmet = Shots/load = 0
+itm_steppe_cap = Steppe_Cap = Shots/load = 0
+itm_leather_steppe_cap_c = Steppe_Cap = Shots/load = 0
+
+# SKILLS VALUES (do not remove this line)
+skl_athletics = Athletics = Party skill = False
+skl_athletics = Athletics = Max level = 10
+skl_athletics = Athletics = Base stat data = Agility
+skl_engineer = Engineer = Party skill = True
+skl_engineer = Engineer = Max level = 10
+skl_engineer = Engineer = Base stat data = Intelligence
+skl_first_aid = First Aid = Party skill = True
+skl_first_aid = First Aid = Max level = 10
+skl_first_aid = First Aid = Base stat data = Intelligence
+skl_horse_archery = Horse Archery = Party skill = False
+skl_horse_archery = Horse Archery = Max level = 10
+skl_horse_archery = Horse Archery = Base stat data = Agility
+skl_inventory_management = Inventory Management = Party skill = False
+skl_inventory_management = Inventory Management = Max level = 10
+skl_inventory_management = Inventory Management = Base stat data = Intelligence
+skl_ironflesh = Ironflesh = Party skill = False
+skl_ironflesh = Ironflesh = Max level = 10
+skl_ironflesh = Ironflesh = Base stat data = Strength
+skl_leadership = Leadership = Party skill = False
+skl_leadership = Leadership = Max level = 10
+skl_leadership = Leadership = Base stat data = Charisma
+skl_looting = Looting = Party skill = True
+skl_looting = Looting = Max level = 10
+skl_looting = Looting = Base stat data = Agility
+skl_pathfinding = Path-finding = Party skill = True
+skl_pathfinding = Path-finding = Max level = 10
+skl_pathfinding = Path-finding = Base stat data = Intelligence
+skl_persuasion = Persuasion = Party skill = False
+skl_persuasion = Persuasion = Max level = 10
+skl_persuasion = Persuasion = Base stat data = Intelligence
+skl_power_draw = Power Draw = Party skill = False
+skl_power_draw = Power Draw = Max level = 10
+skl_power_draw = Power Draw = Base stat data = Strength
+skl_power_strike = Power Strike = Party skill = False
+skl_power_strike = Power Strike = Max level = 10
+skl_power_strike = Power Strike = Base stat data = Strength
+skl_power_throw = Power Throw = Party skill = False
+skl_power_throw = Power Throw = Max level = 10
+skl_power_throw = Power Throw = Base stat data = Strength
+skl_prisoner_management = Prisoner Management = Party skill = False
+skl_prisoner_management = Prisoner Management = Max level = 10
+skl_prisoner_management = Prisoner Management = Base stat data = Charisma
+skl_riding = Riding = Party skill = False
+skl_riding = Riding = Max level = 10
+skl_riding = Riding = Base stat data = Agility
+skl_shield = Shield = Party skill = False
+skl_shield = Shield = Max level = 10
+skl_shield = Shield = Base stat data = Agility
+skl_spotting = Spotting = Party skill = True
+skl_spotting = Spotting = Max level = 10
+skl_spotting = Spotting = Base stat data = Intelligence
+skl_surgery = Surgery = Party skill = True
+skl_surgery = Surgery = Max level = 10
+skl_surgery = Surgery = Base stat data = Intelligence
+skl_tactics = Tactics = Party skill = True
+skl_tactics = Tactics = Max level = 10
+skl_tactics = Tactics = Base stat data = Intelligence
+skl_tracking = Tracking = Party skill = True
+skl_tracking = Tracking = Max level = 10
+skl_tracking = Tracking = Base stat data = Intelligence
+skl_trade = Trade = Party skill = True
+skl_trade = Trade = Max level = 10
+skl_trade = Trade = Base stat data = Charisma
+skl_trainer = Trainer = Party skill = True
+skl_trainer = Trainer = Max level = 10
+skl_trainer = Trainer = Base stat data = Intelligence
+skl_weapon_master = Weapon Master = Party skill = False
+skl_weapon_master = Weapon Master = Max level = 10
+skl_weapon_master = Weapon Master = Base stat data = Agility
+skl_wound_treatment = Wound Treatment = Party skill = True
+skl_wound_treatment = Wound Treatment = Max level = 10
+skl_wound_treatment = Wound Treatment = Base stat data = Intelligence
+
+# BANDIT PARTY SIZE VALUES (do not remove this line)
+pt_leaded_looters = Band of robbers (troop 1) = Min troops = 1
+pt_leaded_looters = Band of robbers (troop 1) = Max troops = 1
+pt_leaded_looters = Band of robbers (troop 2) = Min troops = 3
+pt_leaded_looters = Band of robbers (troop 2) = Max troops = 3
+pt_bandits_awaiting_ransom = Bandits Awaiting Ransom (troop 1) = Min troops = 24
+pt_bandits_awaiting_ransom = Bandits Awaiting Ransom (troop 1) = Max troops = 58
+pt_bandits_awaiting_ransom = Bandits Awaiting Ransom (troop 2) = Min troops = 1
+pt_bandits_awaiting_ransom = Bandits Awaiting Ransom (troop 2) = Max troops = 1
+pt_kingdom_caravan_party = Caravan (troop 1) = Min troops = 1
+pt_kingdom_caravan_party = Caravan (troop 1) = Max troops = 1
+pt_kingdom_caravan_party = Caravan (troop 2) = Min troops = 12
+pt_kingdom_caravan_party = Caravan (troop 2) = Max troops = 40
+pt_cattle_herd = Cattle Herd (troop 1) = Min troops = 80
+pt_cattle_herd = Cattle Herd (troop 1) = Max troops = 120
+pt_default_prisoners = Default Prisoners (troop 1) = Min troops = 5
+pt_default_prisoners = Default Prisoners (troop 1) = Max troops = 10
+pt_desert_bandit_lair = Desert Bandit Lair (troop 1) = Min troops = 15
+pt_desert_bandit_lair = Desert Bandit Lair (troop 1) = Max troops = 58
+pt_desert_bandits = Desert Bandits (troop 1) = Min troops = 4
+pt_desert_bandits = Desert Bandits (troop 1) = Max troops = 58
+pt_forest_bandit_lair = Forest Bandit Camp (troop 1) = Min troops = 15
+pt_forest_bandit_lair = Forest Bandit Camp (troop 1) = Max troops = 58
+pt_forest_bandits = Forest Bandits (troop 1) = Min troops = 4
+pt_forest_bandits = Forest Bandits (troop 1) = Max troops = 52
+pt_kidnapped_girl = Kidnapped Girl (troop 1) = Min troops = 1
+pt_kidnapped_girl = Kidnapped Girl (troop 1) = Max troops = 1
+pt_looter_lair = Kidnappers' Hideout (troop 1) = Min troops = 15
+pt_looter_lair = Kidnappers' Hideout (troop 1) = Max troops = 25
+pt_looters = Looters (troop 1) = Min troops = 3
+pt_looters = Looters (troop 1) = Max troops = 45
+pt_manhunters = Manhunters (troop 1) = Min troops = 9
+pt_manhunters = Manhunters (troop 1) = Max troops = 40
+pt_merchant_caravan = Merchant Caravan (troop 1) = Min troops = 1
+pt_merchant_caravan = Merchant Caravan (troop 1) = Max troops = 1
+pt_merchant_caravan = Merchant Caravan (troop 2) = Min troops = 5
+pt_merchant_caravan = Merchant Caravan (troop 2) = Max troops = 25
+pt_mountain_bandit_lair = Mountain Bandit Hideout (troop 1) = Min troops = 15
+pt_mountain_bandit_lair = Mountain Bandit Hideout (troop 1) = Max troops = 58
+pt_mountain_bandits = Mountain Bandits (troop 1) = Min troops = 4
+pt_mountain_bandits = Mountain Bandits (troop 1) = Max troops = 60
+pt_spy = Ordinary Townsman (troop 1) = Min troops = 1
+pt_spy = Ordinary Townsman (troop 1) = Max troops = 1
+pt_raider_captives = Raider Captives (troop 1) = Min troops = 6
+pt_raider_captives = Raider Captives (troop 1) = Max troops = 30
+pt_dplmc_recruiter = Recruiter (troop 1) = Min troops = 1
+pt_dplmc_recruiter = Recruiter (troop 1) = Max troops = 1
+pt_center_reinforcements = Reinforcements (troop 1) = Min troops = 5
+pt_center_reinforcements = Reinforcements (troop 1) = Max troops = 30
+pt_center_reinforcements = Reinforcements (troop 2) = Min troops = 4
+pt_center_reinforcements = Reinforcements (troop 2) = Max troops = 20
+pt_runaway_serfs = Runaway Serfs (troop 1) = Min troops = 6
+pt_runaway_serfs = Runaway Serfs (troop 1) = Max troops = 7
+pt_runaway_serfs = Runaway Serfs (troop 2) = Min troops = 3
+pt_runaway_serfs = Runaway Serfs (troop 2) = Max troops = 3
+pt_sea_raider_lair = Sea Raider Landing (troop 1) = Min troops = 15
+pt_sea_raider_lair = Sea Raider Landing (troop 1) = Max troops = 50
+pt_sea_raiders = Sea Raiders (troop 1) = Min troops = 5
+pt_sea_raiders = Sea Raiders (troop 1) = Max troops = 50
+pt_steppe_bandit_lair = Steppe Bandit Lair (troop 1) = Min troops = 15
+pt_steppe_bandit_lair = Steppe Bandit Lair (troop 1) = Max troops = 58
+pt_steppe_bandits = Steppe Bandits (troop 1) = Min troops = 4
+pt_steppe_bandits = Steppe Bandits (troop 1) = Max troops = 58
+pt_troublesome_bandits = Troublesome Bandits (troop 1) = Min troops = 14
+pt_troublesome_bandits = Troublesome Bandits (troop 1) = Max troops = 55
+pt_taiga_bandit_lair = Tundra Bandit Lair (troop 1) = Min troops = 15
+pt_taiga_bandit_lair = Tundra Bandit Lair (troop 1) = Max troops = 58
+pt_taiga_bandits = Tundra Bandits (troop 1) = Min troops = 4
+pt_taiga_bandits = Tundra Bandits (troop 1) = Max troops = 58
+pt_spy_partners = Unremarkable Travellers (troop 1) = Min troops = 1
+pt_spy_partners = Unremarkable Travellers (troop 1) = Max troops = 1
+pt_spy_partners = Unremarkable Travellers (troop 2) = Min troops = 5
+pt_spy_partners = Unremarkable Travellers (troop 2) = Max troops = 11
+pt_village_defenders = Village Defenders (troop 1) = Min troops = 10
+pt_village_defenders = Village Defenders (troop 1) = Max troops = 20
+pt_village_defenders = Village Defenders (troop 2) = Min troops = 0
+pt_village_defenders = Village Defenders (troop 2) = Max troops = 4
+pt_village_farmers = Village Farmers (troop 1) = Min troops = 5
+pt_village_farmers = Village Farmers (troop 1) = Max troops = 10
+pt_village_farmers = Village Farmers (troop 2) = Min troops = 3
+pt_village_farmers = Village Farmers (troop 2) = Max troops = 8
+pt_dplmc_gift_caravan = Your Caravan (troop 1) = Min troops = 1
+pt_dplmc_gift_caravan = Your Caravan (troop 1) = Max troops = 1
+pt_dplmc_gift_caravan = Your Caravan (troop 2) = Min troops = 5
+pt_dplmc_gift_caravan = Your Caravan (troop 2) = Max troops = 25
+
+# FACTION COLOR VALUES (do not remove this line)
+fac_commoners = Commoners = Color = 11184810
+fac_deserters = Deserters = Color = 8947848
+fac_forest_bandits = Forest Bandits = Color = 8947848
+fac_innocents = Innocents = Color = 11184810
+fac_kingdom_3 = Khergit Khanate = Color = 13408767
+fac_kingdom_4 = Kingdom of Nords = Color = 3399133
+fac_kingdom_5 = Kingdom of Rhodoks = Color = 3398963
+fac_kingdom_1 = Kingdom of Swadia = Color = 15628100
+fac_kingdom_2 = Kingdom of Vaegirs = Color = 13417369
+fac_manhunters = Manhunters = Color = 11184810
+fac_merchants = Merchants = Color = 11184810
+fac_mountain_bandits = Mountain Bandits = Color = 8947848
+fac_neutral = Neutral = Color = 16777215
+fac_outlaws = Outlaws = Color = 8947848
+fac_player_faction = Player Faction = Color = 11184810
+fac_player_supporters_faction = Player's Supporters = Color = 16448
+fac_kingdom_6 = Sarranid Sultanate = Color = 14540083
